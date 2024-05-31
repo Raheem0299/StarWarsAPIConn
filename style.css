@@ -1,0 +1,77 @@
+header{
+    text-align: center;
+    color: #aaaa0e;
+    background-color: rgba(0, 0, 0, 0.733);
+    margin-top: -70px;
+}
+
+h1{
+    padding-top: 5%;
+    font-size: 70px;
+}
+
+h2{
+    color: #aaaa0e;
+}
+
+hr{
+    margin: 0;
+}
+
+.all{
+    position: fixed;
+    background-image: url(/media/space.jpg);
+    bottom: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+button{
+    font-size: 15px;
+    padding: 5px 10px;
+    margin: 30px 10px;
+    border: 1px solid #aaaa0e;
+    border-radius: 3%;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.04);
+}
+
+#item-selector {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.522);
+    background-color: black;
+    color: #aaaa0e;
+    margin-top: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.contenido{    
+    display: flex;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #aaaa0ec1;
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 5%;
+    color: white;
+    font-size: 18px;
+    padding: 30px 20px;
+    min-height: 200px;
+    width: fit-content;
+    min-width: 200px;
+}
